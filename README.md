@@ -4,7 +4,7 @@ This is a minimal example of a Directus site with postgres database created usin
 
 Click on the button below to deploy this repository with CI/CD on Elestio:
 
-<a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/directus"><img src="deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
+<a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/directus-postgres"><img src="deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
 <img src="screenshot.png" alt="screenshot of the Directus app" width="100%" />
 
