@@ -56,6 +56,8 @@ environments:
     value: '[EMAIL]'
   - key: "ADMIN_PASSWORD"
     value: 'random_password'
+lifeCycleConfig:
+  preInstallCommand: "./scripts/preInstall.sh"
 webUI:
   - url: "https://[CI_CD_DOMAIN]:34343"
     label: "pgAdmin"
