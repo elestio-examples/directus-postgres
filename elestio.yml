@@ -27,6 +27,10 @@ exposedPorts:
 volumes:
   - hostPath: "./data"
     containerPath: "/var/lib/postgresql/data"
+  - hostPath: "./uploads"
+    containerPath: "/var/lib/postgresql/data"
+  - hostPath: "./extensions"
+    containerPath: "/directus/extensions"
 environments:
   - key: "KEY"
     value: "random_password"
